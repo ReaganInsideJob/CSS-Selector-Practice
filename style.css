@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #77ca9f;
+}
+
+.flexParent{
+  display: flex;
+}
+
+.flexParent div{
+  background-color: #c8dd7e;
+  margin: 16vmin;
+  padding:16vh;
+  border: 4px solid;
+}
+
+.flexParent> div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #60b6e1;
+}
+
+.flexParent div>p{
+  text-decoration: underline;
+}
+
+.flexParent div p: first-child{
+  text-decoration: underline;
+}
